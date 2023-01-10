@@ -1,0 +1,15 @@
+#!/bin/bash -x
+
+export ymd=`date "+%Y_%m_%d"`
+echo "Today's date is $ymd"
+
+export path1="/Users/Shared/Practice/dir1"
+export path2="/Users/Shared/Practice/dir2"
+export path3="/Users/Shared/Practice/dir3"
+export path4="/Users/Shared/Practice/dir4"
+
+cp -p $path1/* $path2/
+
+cp -p $path3/test1.txt $path4/
+
+exit 0
