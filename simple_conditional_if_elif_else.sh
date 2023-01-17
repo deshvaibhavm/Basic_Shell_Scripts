@@ -1,6 +1,7 @@
 #!/bin/sh
 
-read -p "Enter any number: " number
+echo "Enter a number: "
+read number
 
 if [ $number -gt 10 ]
 then
